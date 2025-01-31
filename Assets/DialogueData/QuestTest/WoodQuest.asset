@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc44236857a84953838b02764038d9a, type: 3}
+  m_Name: WoodQuest
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Yo. Can you get me some wood? 20 is fine... Actually make it 50. Just in case.
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 23cdd4bb1653346a09a3ecf5e9b4f0ef, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 3ec122afcb80d44dcac974eac16cf677, type: 2}

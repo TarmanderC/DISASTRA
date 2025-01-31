@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc44236857a84953838b02764038d9a, type: 3}
+  m_Name: ManOutside1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Man: Thank you for your service, Sir Knight! We\u2019d never be safe without
+    your help!"
+  - "Woman: You seem like you\u2019ve had a rough night."
+  - "Woman: If you ever need to rest, just find a bed in the shop and lay down! You\u2019ll
+    recover all your health and magic instantly!"
+  - "Man: It\u2019s always nice to see you safe at home, especially since it\u2019s
+    not that often! Be sure to come visit when you set off again!"
+  - "Woman: Sorry, I don\u2019t think my husband understands the nature of your job.
+    If you need to be away for a while, that\u2019s okay."
+  responses:
+  - responseText: Thanks!
+    dialogueObject: {fileID: 0}

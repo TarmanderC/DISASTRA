@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aee4eded8205b472a82a88da80fd7971, type: 3}
+  m_Name: CollectWoodSubGoal
+  m_EditorClassIdentifier: 
+  description: Get 50 wood
+  completed: 0
+  requiredCount: 50
+  currentCount: 0
+  itemData: {fileID: 11400000, guid: 5b6ed327841d345f09fec8d60026678a, type: 2}

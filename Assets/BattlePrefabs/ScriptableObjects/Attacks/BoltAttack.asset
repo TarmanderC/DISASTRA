@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab7edb34d9d442b0ad23439ae95b5de, type: 3}
+  m_Name: BoltAttack
+  m_EditorClassIdentifier: 
+  attackName: Bolt
+  TUCost: 100
+  damage: 4
+  doesItSlide: 0
+  isAOE: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc44236857a84953838b02764038d9a, type: 3}
+  m_Name: TalkToMage
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Knight: Madame Mage, you won\u2019t believe the dream I had last night!"
+  - 'Mage: Do you mean the dream about the disasters? I believe I had the same one!'
+  - "Knight: What a coincidence! You don\u2019t think she\u2019s luring us into a
+    trap, is she?"
+  - "Mage: Perhaps, but if it is, I\u2019m sure we can defeat her!"
+  - "Knight: Are you saying you\u2019ll join me on a quest to defeat the nature spirits
+    and save the realm?"
+  - "Mage: Of course! I\u2019ll be with you every step of the way!"
+  responses:
+  - responseText: Awesome!
+    dialogueObject: {fileID: 0}
